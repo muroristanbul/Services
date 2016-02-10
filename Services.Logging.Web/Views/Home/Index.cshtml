@@ -1,0 +1,52 @@
+﻿@model Services.Logging.Web.Models.IndexViewModel
+
+<h1>Create App</h1>
+
+<div class="row">
+    @using (Html.BeginForm())
+    {
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-4">Uygulama Adını Giriniz...</div>
+                <div class="col-lg-6">
+                    @Html.TextBoxFor(z => z.ProjectFormModel.ProjectName, new { @class = "form-control col-lg-12" })
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" value="Kaydet" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="row">
+    <hr/>
+</div>
+
+<div class="row">
+    @if (!string.IsNullOrEmpty(Model.Token))
+    {
+        <div class="col-lg-6">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-4">
+                        Proje Adı:
+                    </div>
+                    <div class="col-lg-8">
+                        @Model.ProjectFormModel.ProjectName
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-4">
+                        Token Değeri:
+                    </div>
+                    <div class="col-lg-8">
+                        @Model.Token
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
