@@ -8,7 +8,7 @@ namespace Services.Logging.Controllers
         // GET: api/Home
         public IEnumerable<string> Get()
         {
-            return new string[] { "murat", "orhan", "Talha", "Irmak" };
+            return new string[] { "murat", "orhan", "Talha", "Irmak","asdasdasda" };
         }
 
         // GET: api/Home/5
