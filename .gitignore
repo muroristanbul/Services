@@ -21,6 +21,8 @@ Services.Logging/bin/
 Services.Logging/obj/
 Services.Logging.Tests/bin/
 Services.Logging.Tests/obj/
+Services.Logging.Web/bin/
+Services.Logging.Web/obj/
 packages/
 .vs/
 Publish/
