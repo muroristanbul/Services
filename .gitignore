@@ -22,6 +22,8 @@ Services.Logging/obj/
 Services.Logging.Tests/bin/
 Services.Logging.Tests/obj/
 packages/
+.vs/
+Publish/
 
 # =========================
 # Operating System Files
