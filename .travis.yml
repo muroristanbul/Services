@@ -1,9 +1,7 @@
 language: csharp
 solution: Services.sln
-before_install:
-  - sudo apt-get update -qq > /dev/null
-  - mozroots --import --sync
-  - export EnableNuGetPackageRestore=true
+install:
+  - sudo apt-get install mono-devel mono-gmcs nunit-console
 
 
 
