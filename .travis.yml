@@ -1,7 +1,6 @@
 language: csharp
 solution: Services.sln
-install:
-  - sudo apt-get install mono-devel mono-gmcs nunit-console
+
 
 
 
