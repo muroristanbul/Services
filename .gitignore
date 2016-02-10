@@ -17,7 +17,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-Services.Logging/bin/
+#Services.Logging/bin/
 Services.Logging/obj/
 Services.Logging.Tests/bin/
 Services.Logging.Tests/obj/
