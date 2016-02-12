@@ -17,8 +17,8 @@ namespace Services.Logging.Controllers
 
             var list = new List<PersonModel>
             {
-                new PersonModel {Name = "Murat", City = "Sinop"},
-                new PersonModel {Name = "Orhan", City = "Muğla"}
+                new PersonModel {Name = "Murat Akyüz", City = "Sinop"},
+                new PersonModel {Name = "Orhan Atılgan", City = "Muğla"}
             };
 
             var person = new PersonModel
